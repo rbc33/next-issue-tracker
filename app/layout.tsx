@@ -1,10 +1,15 @@
 import '@radix-ui/themes/styles.css'
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 import { Theme } from '@radix-ui/themes'
 import './globals.css'
 import NavBar from './NavBar'
 
+const avenir = localFont({
+	src: '../public/fonts/Avenir-Black.woff2',
+	variable: '--font-avenir',
+})
 const geistSans = Geist({
 	variable: '--font-geist-sans',
 	subsets: ['latin'],
@@ -28,9 +33,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={`${geistSans.variable} ${geistMono.variable} ${avenir.variable} antialiased`}
 			>
-				<Theme appearance="dark">
+				<Theme appearance="dark" accentColor="tomato">
 					<NavBar />
 					<main className="p-5">{children}</main>
 				</Theme>

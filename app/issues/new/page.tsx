@@ -1,4 +1,4 @@
-import { TextField, Flex, TextArea, Button } from '@radix-ui/themes'
+import { TextField, Flex, TextArea, Button, ThemePanel } from '@radix-ui/themes'
 import React from 'react'
 
 const NewIssuePage = () => {

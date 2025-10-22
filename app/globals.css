@@ -5,11 +5,15 @@
 	--foreground: #171717;
 }
 
-@theme inline {
+@theme {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
+	--font-avenir: 'var(--font-avenir)';
+}
+.radix-themes {
+	--default-font-family: var(--font-avenir);
 }
 
 @media (prefers-color-scheme: dark) {
