@@ -1,0 +1,89 @@
+# Nextjs issue tracker
+
+- [x] 1.1 Welcome
+- [x] 2.2 Prerequisites
+- [x] 3.3 Source Code
+- [x] 4.4 How to Take This Course
+- [x] 5.1 Project Roadmap
+- [x] 6.2 Setting Up the Development Environment
+- [] 7.3 Creating the Project
+- [] 8.4 Building the navbar
+- [] 9.5 Styling the Active Link
+- [] 10.1 Setting Up MySQL
+- [] 11.2 Setting Up Prisma
+- [] 12.3 Creating the Issue Model
+- [] 13.4 Building an API
+- [] 14.5 Setting Up Radix UI
+- [] 15.6 Building the New Issue Page
+- [] 16.7 Customizing Radix UI Theme
+- [] 17.8 Adding a Markdown Editor
+- [] 18.9 Handling Form Submission
+- [] 19.10 Handling Errors
+- [] 20.11 Implementing Client-side Validation
+- [] 21.12 Extracting the ErrorMessage Component
+- [] 22.13 Adding a Spinner
+- [] 23.14 Discussion- Code Organization
+- [] 24.1 Showing the Issues
+- [] 25.2 Building the Issue Status Badge
+- [] 26.3 Adding Loading Skeletons
+- [] 27.4 Showing Issue Details
+- [] 28.5 Styling the Issue Detail Page
+- [] 29.6 Adding Markdown Preview
+- [] 30.7 Building a Styled Link Component
+- [] 31.8 Additional Loading Skeletons
+- [] 32.9 Disabling Server-side Rendering
+- [] 33.10 Refactoring- Organizing Imports
+- [] 34.1 Adding the Edit Button
+- [] 35.2 Applying the Single Responsibility Principle
+- [] 36.3 Building the Edit Issue Page
+- [] 37.4 Building an API
+- [] 38.5 Updating Issues
+- [] 39.6 Understanding Caching
+- [] 40.7 Improving the Loading Experience
+- [] 41.1 Adding a Delete Button
+- [] 42.2 Adding a Confirmation Dialog Box
+- [] 43.3 Building an API
+- [] 44.4 Deleting an Issue
+- [] 45.5 Handling Errors
+- [] 46.6 Improving the User Experience
+- [] 47.7 Removing Duplicate Skeletons
+- [] 48.1 Setting Up NextAuth
+- [] 49.2 Configuring Google Provider
+- [] 50.3 Adding the Prisma Adapter
+- [] 51.4 Adding the Login and Logout Links
+- [] 52.5 Change the Layout of the NavBar
+- [] 53.6 Adding a Drop-down Menu
+- [] 54.7 Troubleshooting- Avatar Not Loading
+- [] 55.8 Refactoring the NavBar
+- [] 56.9 Adding a Loading Skeleton
+- [] 57.10 Securing the Application
+- [] 58.1 Building the Assignee Select Component
+- [] 59.2 Populating the Assignee Select Component
+- [] 60.3 Setting Up React Query
+- [] 61.4 Fetching Data with React Query
+- [] 62.5 Add Assigned Issues to Prisma Schema
+- [] 63.6 Implementing the API
+- [] 64.7 Assigning an Issue to a User
+- [] 65.8 Showing Toast Notifications
+- [] 66.9 Refactoring the Assignee Select Component
+- [] 67.1 Building the Filter Component
+- [] 68.2 Filtering Issues
+- [] 69.3 Making Columns Sortable
+- [] 70.4 Sorting Issues
+- [] 71.5 Fix Filtering Bugs
+- [] 72.6 Generating Dummy Data
+- [] 73.7 Building the Pagination Component
+- [] 74.8 Implementing Pagination
+- [] 75.9 PaginatingIssues
+- [] 76.10 Refactoring- Extracting IssueTable Component
+- [] 77.1 Building the LatestIssues Component
+- [] 78.2 Building the IssueSummary Component
+- [] 79.3 Building the BarChart Component
+- [] 80.4 Laying Out the Dashboard
+- [] 81.1 Adding Metadata
+- [] 82.2 Optimizing Performance Using React Cache
+- [] 83.3 Removing.env File
+- [] 84.4 Setting Up Error Tracking
+- [] 85.5 Setting Up the Production Database
+- [] 86.6 Deploying to Vercel
+- [] 87.1 Course Wrap Up
