@@ -16,7 +16,7 @@
 - [x] 14.5 Setting Up Radix UI
 - [x] 15.6 Building the New Issue Page
 - [x] 16.7 Customizing Radix UI Theme
-- [] 17.8 Adding a Markdown Editor
+- [x] 17.8 Adding a Markdown Editor
 - [] 18.9 Handling Form Submission
 - [] 19.10 Handling Errors
 - [] 20.11 Implementing Client-side Validation

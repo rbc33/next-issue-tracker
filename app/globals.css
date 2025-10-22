@@ -28,3 +28,31 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.EasyMDEContainer .CodeMirror {
+	background-color: var(--color-surface) !important;
+	color: var(--color-text) !important;
+	border-color: var(--color-border) !important;
+}
+
+.EasyMDEContainer .CodeMirror-cursor {
+	border-left: 1px solid var(--color-text) !important;
+}
+
+.EasyMDEContainer .editor-toolbar {
+	background-color: var(--color-panel-solid) !important;
+	border-color: var(--color-border) !important;
+}
+
+.EasyMDEContainer .editor-toolbar button {
+	color: var(--color-text) !important;
+}
+
+.EasyMDEContainer .editor-toolbar button:hover {
+	background-color: var(--color-surface-hover) !important;
+}
+
+.EasyMDEContainer .editor-preview {
+	background-color: var(--color-surface) !important;
+	color: var(--color-text) !important;
+}
