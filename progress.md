@@ -13,7 +13,7 @@
 - [x] 11.2 Setting Up Prisma
 - [x] 12.3 Creating the Issue Model
 - [x] 13.4 Building an API
-- [] 14.5 Setting Up Radix UI
+- [x] 14.5 Setting Up Radix UI
 - [] 15.6 Building the New Issue Page
 - [] 16.7 Customizing Radix UI Theme
 - [] 17.8 Adding a Markdown Editor
