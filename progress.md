@@ -6,13 +6,13 @@
 - [x] 4.4 How to Take This Course
 - [x] 5.1 Project Roadmap
 - [x] 6.2 Setting Up the Development Environment
-- [] 7.3 Creating the Project
-- [] 8.4 Building the navbar
-- [] 9.5 Styling the Active Link
-- [] 10.1 Setting Up MySQL
-- [] 11.2 Setting Up Prisma
-- [] 12.3 Creating the Issue Model
-- [] 13.4 Building an API
+- [x] 7.3 Creating the Project
+- [x] 8.4 Building the navbar
+- [x] 9.5 Styling the Active Link
+- [x] 10.1 Setting Up MySQL
+- [x] 11.2 Setting Up Prisma
+- [x] 12.3 Creating the Issue Model
+- [x] 13.4 Building an API
 - [] 14.5 Setting Up Radix UI
 - [] 15.6 Building the New Issue Page
 - [] 16.7 Customizing Radix UI Theme
