@@ -2,9 +2,14 @@
 import { Button, TextField } from '@radix-ui/themes'
 import { useForm, Controller } from 'react-hook-form'
 import 'easymde/dist/easymde.min.css'
-import SimpleMDE from 'react-simplemde-editor'
 import axios from 'axios'
 import { useRouter } from 'next/navigation'
+import dynamic from 'next/dynamic'
+
+const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
+	ssr: false,
+	loading: () => <p>Loading Editor...</p>,
+})
 
 interface IssueForm {
 	title: string
@@ -20,7 +25,7 @@ const NewIssuePage = () => {
 			className="max-w-xl space-y-3"
 			onSubmit={handleSubmit(async (data) => {
 				try {
-					await axios.post('/api/Xissues', data)
+					await axios.post('/api/issues', data)
 					router.push('/issues')
 				} catch (error) {
 					console.log('Failed to create issue', error)
