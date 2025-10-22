@@ -36,7 +36,7 @@ body {
 }
 
 .EasyMDEContainer .CodeMirror-cursor {
-	border-left: 1px solid var(--color-text) !important;
+	border-left: 1px solid var(--foreground) !important;
 }
 
 .EasyMDEContainer .editor-toolbar {
