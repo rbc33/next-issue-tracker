@@ -20,8 +20,8 @@
 - [x] 18.9 Handling Form Submission
 - [x] 19.10 Handling Errors
 - [x] 20.11 Implementing Client-side Validation
-- [] 21.12 Extracting the ErrorMessage Component
-- [] 22.13 Adding a Spinner
+- [x] 21.12 Extracting the ErrorMessage Component
+- [x] 22.13 Adding a Spinner
 - [] 23.14 Discussion- Code Organization
 - [] 24.1 Showing the Issues
 - [] 25.2 Building the Issue Status Badge
