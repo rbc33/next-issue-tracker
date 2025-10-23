@@ -18,7 +18,7 @@
 - [x] 16.7 Customizing Radix UI Theme
 - [x] 17.8 Adding a Markdown Editor
 - [x] 18.9 Handling Form Submission
-- [] 19.10 Handling Errors
+- [x] 19.10 Handling Errors
 - [] 20.11 Implementing Client-side Validation
 - [] 21.12 Extracting the ErrorMessage Component
 - [] 22.13 Adding a Spinner
