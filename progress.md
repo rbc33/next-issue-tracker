@@ -22,8 +22,8 @@
 - [x] 20.11 Implementing Client-side Validation
 - [x] 21.12 Extracting the ErrorMessage Component
 - [x] 22.13 Adding a Spinner
-- [] 23.14 Discussion- Code Organization
-- [] 24.1 Showing the Issues
+- [x] 23.14 Discussion- Code Organization
+- [x] 24.1 Showing the Issues
 - [] 25.2 Building the Issue Status Badge
 - [] 26.3 Adding Loading Skeletons
 - [] 27.4 Showing Issue Details
