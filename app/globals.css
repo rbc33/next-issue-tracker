@@ -56,3 +56,8 @@ body {
 	background-color: var(--color-surface) !important;
 	color: var(--color-text) !important;
 }
+
+.react-loading-skeleton {
+	--base-color: var(--color-surface) !important;
+	--highlight-color: var(--color-surface-hover) !important;
+}
