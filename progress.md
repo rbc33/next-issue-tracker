@@ -25,8 +25,8 @@
 - [x] 23.14 Discussion- Code Organization
 - [x] 24.1 Showing the Issues
 - [x] 25.2 Building the Issue Status Badge
-- [] 26.3 Adding Loading Skeletons
-- [] 27.4 Showing Issue Details
+- [x] 26.3 Adding Loading Skeletons
+- [x] 27.4 Showing Issue Details
 - [] 28.5 Styling the Issue Detail Page
 - [] 29.6 Adding Markdown Preview
 - [] 30.7 Building a Styled Link Component
