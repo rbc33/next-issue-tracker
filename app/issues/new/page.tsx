@@ -1,74 +1,7 @@
-'use client'
-import { Button, Callout, TextField } from '@radix-ui/themes'
-import { useForm, Controller } from 'react-hook-form'
-import 'easymde/dist/easymde.min.css'
-import axios from 'axios'
-import { useRouter } from 'next/navigation'
-// import dynamic from 'next/dynamic'
-import { useState } from 'react'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { createIssueSchema } from '@/app/validationSchemas'
-import SimpleMDE from 'react-simplemde-editor'
-import { z } from 'zod'
-import { ErrorMessage, Spinner } from '@/app/components'
-
-// const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
-// 	ssr: false,
-// })
-
-type IssueForm = z.infer<typeof createIssueSchema>
+import IssueForm from '../_components/IssueForm'
 
 const NewIssuePage = () => {
-	const router = useRouter()
-	const {
-		register,
-		control,
-		handleSubmit,
-		formState: { errors },
-	} = useForm<IssueForm>({
-		resolver: zodResolver(createIssueSchema),
-	})
-	const [error, setError] = useState('')
-	const [isSubmiting, setSubmiting] = useState(false)
-
-	const onSubmit = handleSubmit(async (data) => {
-		try {
-			setSubmiting(true)
-			await axios.post('/api/issues', data)
-			router.push('/issues')
-		} catch (error) {
-			setSubmiting(false)
-			setError('An error occurred')
-		}
-	})
-
-	return (
-		<div className="max-w-xl">
-			{error && (
-				<Callout.Root className="mb-5">
-					<Callout.Text>{error}</Callout.Text>
-				</Callout.Root>
-			)}
-			<form className="space-y-3" onSubmit={onSubmit}>
-				<TextField.Root
-					variant="surface"
-					placeholder="Title"
-					{...register('title')}
-				/>
-				<ErrorMessage>{errors.title?.message}</ErrorMessage>{' '}
-				<Controller
-					name="description"
-					control={control}
-					render={({ field }) => <SimpleMDE {...field} />}
-				/>
-				<ErrorMessage>{errors.description?.message}</ErrorMessage>
-				<br />
-				<Button disabled={isSubmiting}>
-					Submit New Issue {isSubmiting && <Spinner />}
-				</Button>
-			</form>
-		</div>
-	)
+	return <IssueForm />
 }
 
 export default NewIssuePage
