@@ -33,8 +33,8 @@
 - [x] 31.8 Additional Loading Skeletons
 - [x] 32.9 Disabling Server-side Rendering
 - [x] 33.10 Refactoring- Organizing Imports
-- [] 34.1 Adding the Edit Button
-- [] 35.2 Applying the Single Responsibility Principle
+- [x] 34.1 Adding the Edit Button
+- [x] 35.2 Applying the Single Responsibility Principle
 - [] 36.3 Building the Edit Issue Page
 - [] 37.4 Building an API
 - [] 38.5 Updating Issues
