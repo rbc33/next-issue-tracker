@@ -29,8 +29,8 @@
 - [x] 27.4 Showing Issue Details
 - [x] 28.5 Styling the Issue Detail Page
 - [x] 29.6 Adding Markdown Preview
-- [] 30.7 Building a Styled Link Component
-- [] 31.8 Additional Loading Skeletons
+- [x] 30.7 Building a Styled Link Component
+- [x] 31.8 Additional Loading Skeletons
 - [] 32.9 Disabling Server-side Rendering
 - [] 33.10 Refactoring- Organizing Imports
 - [] 34.1 Adding the Edit Button
