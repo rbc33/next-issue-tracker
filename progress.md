@@ -31,8 +31,8 @@
 - [x] 29.6 Adding Markdown Preview
 - [x] 30.7 Building a Styled Link Component
 - [x] 31.8 Additional Loading Skeletons
-- [] 32.9 Disabling Server-side Rendering
-- [] 33.10 Refactoring- Organizing Imports
+- [x] 32.9 Disabling Server-side Rendering
+- [x] 33.10 Refactoring- Organizing Imports
 - [] 34.1 Adding the Edit Button
 - [] 35.2 Applying the Single Responsibility Principle
 - [] 36.3 Building the Edit Issue Page
