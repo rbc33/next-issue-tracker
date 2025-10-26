@@ -9,6 +9,9 @@
 - [x] 7.3 Creating the Project
 - [x] 8.4 Building the navbar
 - [x] 9.5 Styling the Active Link
+
+---
+
 - [x] 10.1 Setting Up MySQL
 - [x] 11.2 Setting Up Prisma
 - [x] 12.3 Creating the Issue Model
@@ -23,6 +26,9 @@
 - [x] 21.12 Extracting the ErrorMessage Component
 - [x] 22.13 Adding a Spinner
 - [x] 23.14 Discussion- Code Organization
+
+---
+
 - [x] 24.1 Showing the Issues
 - [x] 25.2 Building the Issue Status Badge
 - [x] 26.3 Adding Loading Skeletons
@@ -33,13 +39,19 @@
 - [x] 31.8 Additional Loading Skeletons
 - [x] 32.9 Disabling Server-side Rendering
 - [x] 33.10 Refactoring- Organizing Imports
+
+---
+
 - [x] 34.1 Adding the Edit Button
 - [x] 35.2 Applying the Single Responsibility Principle
 - [x] 36.3 Building the Edit Issue Page
 - [x] 37.4 Building an API
 - [x] 38.5 Updating Issues
 - [x] 39.6 Understanding Caching
-- [] 40.7 Improving the Loading Experience
+- [x] 40.7 Improving the Loading Experience
+
+---
+
 - [] 41.1 Adding a Delete Button
 - [] 42.2 Adding a Confirmation Dialog Box
 - [] 43.3 Building an API
@@ -47,6 +59,9 @@
 - [] 45.5 Handling Errors
 - [] 46.6 Improving the User Experience
 - [] 47.7 Removing Duplicate Skeletons
+
+---
+
 - [] 48.1 Setting Up NextAuth
 - [] 49.2 Configuring Google Provider
 - [] 50.3 Adding the Prisma Adapter
@@ -57,6 +72,9 @@
 - [] 55.8 Refactoring the NavBar
 - [] 56.9 Adding a Loading Skeleton
 - [] 57.10 Securing the Application
+
+---
+
 - [] 58.1 Building the Assignee Select Component
 - [] 59.2 Populating the Assignee Select Component
 - [] 60.3 Setting Up React Query
@@ -66,6 +84,9 @@
 - [] 64.7 Assigning an Issue to a User
 - [] 65.8 Showing Toast Notifications
 - [] 66.9 Refactoring the Assignee Select Component
+
+---
+
 - [] 67.1 Building the Filter Component
 - [] 68.2 Filtering Issues
 - [] 69.3 Making Columns Sortable
@@ -76,14 +97,23 @@
 - [] 74.8 Implementing Pagination
 - [] 75.9 PaginatingIssues
 - [] 76.10 Refactoring- Extracting IssueTable Component
+
+---
+
 - [] 77.1 Building the LatestIssues Component
 - [] 78.2 Building the IssueSummary Component
 - [] 79.3 Building the BarChart Component
 - [] 80.4 Laying Out the Dashboard
+
+---
+
 - [] 81.1 Adding Metadata
 - [] 82.2 Optimizing Performance Using React Cache
 - [] 83.3 Removing.env File
 - [] 84.4 Setting Up Error Tracking
 - [] 85.5 Setting Up the Production Database
 - [] 86.6 Deploying to Vercel
+
+---
+
 - [] 87.1 Course Wrap Up
