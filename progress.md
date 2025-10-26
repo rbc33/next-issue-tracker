@@ -36,7 +36,7 @@
 - [x] 34.1 Adding the Edit Button
 - [x] 35.2 Applying the Single Responsibility Principle
 - [x] 36.3 Building the Edit Issue Page
-- [] 37.4 Building an API
+- [x] 37.4 Building an API
 - [] 38.5 Updating Issues
 - [] 39.6 Understanding Caching
 - [] 40.7 Improving the Loading Experience

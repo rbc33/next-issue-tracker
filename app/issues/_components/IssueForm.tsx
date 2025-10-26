@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 // import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { createIssueSchema } from '@/app/validationSchemas'
+import { issueSchema } from '@/app/validationSchemas'
 import SimpleMDE from 'react-simplemde-editor'
 import { z } from 'zod'
 import { ErrorMessage, Spinner } from '@/app/components'
@@ -17,7 +17,7 @@ import { Issue } from '@prisma/client'
 // 	ssr: false,
 // })
 
-type IssueFormData = z.infer<typeof createIssueSchema>
+type IssueFormData = z.infer<typeof issueSchema>
 
 const IssueForm = ({ issue }: { issue?: Issue }) => {
 	const router = useRouter()
@@ -27,7 +27,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
 		handleSubmit,
 		formState: { errors },
 	} = useForm<IssueFormData>({
-		resolver: zodResolver(createIssueSchema),
+		resolver: zodResolver(issueSchema),
 	})
 	const [error, setError] = useState('')
 	const [isSubmiting, setSubmiting] = useState(false)
@@ -37,6 +37,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
 			setSubmiting(true)
 			await axios.post('/api/issues', data)
 			router.push('/issues')
+			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch (error) {
 			setSubmiting(false)
 			setError('An error occurred')
