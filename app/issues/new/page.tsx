@@ -4,7 +4,7 @@ import { useForm, Controller } from 'react-hook-form'
 import 'easymde/dist/easymde.min.css'
 import axios from 'axios'
 import { useRouter } from 'next/navigation'
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { createIssueSchema } from '@/app/validationSchemas'
@@ -15,7 +15,6 @@ import Spinner from '@/app/components/Spinner'
 
 // const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
 // 	ssr: false,
-// 	// loading: () => <p>Loading Editor...</p>,
 // })
 
 type IssueForm = z.infer<typeof createIssueSchema>
