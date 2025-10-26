@@ -37,8 +37,8 @@
 - [x] 35.2 Applying the Single Responsibility Principle
 - [x] 36.3 Building the Edit Issue Page
 - [x] 37.4 Building an API
-- [] 38.5 Updating Issues
-- [] 39.6 Understanding Caching
+- [x] 38.5 Updating Issues
+- [x] 39.6 Understanding Caching
 - [] 40.7 Improving the Loading Experience
 - [] 41.1 Adding a Delete Button
 - [] 42.2 Adding a Confirmation Dialog Box
