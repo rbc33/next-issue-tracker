@@ -44,4 +44,7 @@ const IssuesPage = async () => {
 	)
 }
 
+export const dynamic = 'force-dynamic'
+// export const revalidate = 60 // set to 0 equals dynamic = "force-dynamic"
+
 export default IssuesPage

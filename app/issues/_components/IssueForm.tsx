@@ -37,6 +37,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
 			setSubmiting(true)
 			await axios.post('/api/issues', data)
 			router.push('/issues')
+			router.refresh() // force the router to refresh the page
 			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch (error) {
 			setSubmiting(false)
