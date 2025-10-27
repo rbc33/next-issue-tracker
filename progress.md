@@ -68,8 +68,8 @@
 - [x] 51.4 Adding the Login and Logout Links
 - [x] 52.5 Change the Layout of the NavBar
 - [x] 53.6 Adding a Drop-down Menu
-- [] 54.7 Troubleshooting- Avatar Not Loading
-- [] 55.8 Refactoring the NavBar
+- [x] 54.7 Troubleshooting- Avatar Not Loading
+- [x] 55.8 Refactoring the NavBar
 - [] 56.9 Adding a Loading Skeleton
 - [] 57.10 Securing the Application
 

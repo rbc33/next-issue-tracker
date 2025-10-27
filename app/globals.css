@@ -62,3 +62,9 @@ body {
 	--base-color: var(--color-surface) !important;
 	--highlight-color: var(--color-surface-hover) !important;
 }
+
+@layer utilities {
+	.nav-link {
+		@apply text-zinc-500 hover:text-zinc-300 transition-colors;
+	}
+}
