@@ -15,6 +15,11 @@ export const authOptions: AuthOptions = {
 	session: {
 		strategy: 'jwt',
 	},
+	callbacks: {
+		async redirect({ url, baseUrl }) {
+			return baseUrl // This will redirect to the root path '/'
+		},
+	},
 }
 
 const handler = NextAuth(authOptions)

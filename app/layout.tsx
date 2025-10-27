@@ -5,6 +5,7 @@ import localFont from 'next/font/local'
 import { Container, Theme } from '@radix-ui/themes'
 import './globals.css'
 import NavBar from './NavBar'
+import AuthProvider from './auth/Provider'
 
 const avenir = localFont({
 	src: '../public/fonts/Avenir-Black.woff2',
@@ -35,12 +36,14 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${avenir.variable} antialiased`}
 			>
-				<Theme appearance="dark" accentColor="tomato">
-					<NavBar />
-					<main className="p-5">
-						<Container>{children}</Container>
-					</main>
-				</Theme>
+				<AuthProvider>
+					<Theme appearance="dark" accentColor="tomato">
+						<NavBar />
+						<main className="p-5">
+							<Container>{children}</Container>
+						</main>
+					</Theme>
+				</AuthProvider>
 			</body>
 		</html>
 	)
