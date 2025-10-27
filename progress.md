@@ -66,8 +66,8 @@
 - [x] 49.2 Configuring Google Provider
 - [x] 50.3 Adding the Prisma Adapter
 - [x] 51.4 Adding the Login and Logout Links
-- [] 52.5 Change the Layout of the NavBar
-- [] 53.6 Adding a Drop-down Menu
+- [x] 52.5 Change the Layout of the NavBar
+- [x] 53.6 Adding a Drop-down Menu
 - [] 54.7 Troubleshooting- Avatar Not Loading
 - [] 55.8 Refactoring the NavBar
 - [] 56.9 Adding a Loading Skeleton
