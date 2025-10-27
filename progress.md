@@ -70,8 +70,8 @@
 - [x] 53.6 Adding a Drop-down Menu
 - [x] 54.7 Troubleshooting- Avatar Not Loading
 - [x] 55.8 Refactoring the NavBar
-- [] 56.9 Adding a Loading Skeleton
-- [] 57.10 Securing the Application
+- [x] 56.9 Adding a Loading Skeleton
+- [x] 57.10 Securing the Application
 
 ---
 

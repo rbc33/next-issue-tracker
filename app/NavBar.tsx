@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { FaBug } from 'react-icons/fa'
 import classNames from 'classnames'
-import { useSession } from 'next-auth/react'
+import { useSession, signOut } from 'next-auth/react'
 import {
 	Avatar,
 	Box,
@@ -57,6 +57,8 @@ const NavLinks = () => {
 }
 const AuthStatus = () => {
 	const { status, data: session } = useSession()
+	const pathname = usePathname() // Añade esta línea
+
 	if (status === 'loading') return <Skeleton width="3rem" />
 	if (status === 'unauthenticated')
 		return (
@@ -81,8 +83,8 @@ const AuthStatus = () => {
 					<DropdownMenu.Label>
 						<Text size="2">{session!.user!.email}</Text>
 					</DropdownMenu.Label>
-					<DropdownMenu.Item>
-						<Link href="/api/auth/signout">Log out</Link>
+					<DropdownMenu.Item onClick={() => signOut({ callbackUrl: pathname })}>
+						Log out
 					</DropdownMenu.Item>
 				</DropdownMenu.Content>
 			</DropdownMenu.Root>
