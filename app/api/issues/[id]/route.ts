@@ -1,7 +1,6 @@
 import { issueSchema } from '@/app/validationSchemas'
 import { prisma } from '@/prisma/client'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { error } from 'console'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function PATCH(
@@ -36,7 +35,6 @@ export async function DELETE(
 	{ params }: { params: Promise<{ id: string }> }
 ) {
 	const { id } = await params
-
 	const issue = await prisma.issue.findUnique({
 		where: { id: parseInt(id) },
 	})

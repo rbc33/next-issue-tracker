@@ -1,4 +1,5 @@
 'use client'
+import { Spinner } from '@/app/components'
 // import { Pencil2Icon } from '@radix-ui/react-icons'
 import { AlertDialog, Button, Flex } from '@radix-ui/themes'
 import axios from 'axios'
@@ -9,12 +10,15 @@ import { ca } from 'zod/v4/locales'
 const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
 	const router = useRouter()
 	const [error, setError] = useState<boolean>(false)
+	const [isDeleting, setDeleting] = useState<boolean>(false)
 	const deleteIssue = async () => {
 		try {
+			setDeleting(true)
 			await axios.delete('/api/issues/' + issueId)
 			router.push('/issues')
 			router.refresh()
 		} catch (error) {
+			setDeleting(false)
 			setError(true)
 		}
 	}
@@ -22,7 +26,10 @@ const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
 		<>
 			<AlertDialog.Root>
 				<AlertDialog.Trigger>
-					<Button color="red">Delete issue</Button>
+					<Button color="red" disabled={isDeleting}>
+						Delete issue
+						{isDeleting && <Spinner />}
+					</Button>
 				</AlertDialog.Trigger>
 				<AlertDialog.Content>
 					<AlertDialog.Title>Confirm deletion?</AlertDialog.Title>
