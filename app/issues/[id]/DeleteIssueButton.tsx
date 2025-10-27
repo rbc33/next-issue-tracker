@@ -5,7 +5,6 @@ import { AlertDialog, Button, Flex } from '@radix-ui/themes'
 import axios from 'axios'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { ca } from 'zod/v4/locales'
 
 const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
 	const router = useRouter()

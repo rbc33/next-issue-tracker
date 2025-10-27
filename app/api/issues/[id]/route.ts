@@ -1,6 +1,5 @@
 import { issueSchema } from '@/app/validationSchemas'
 import { prisma } from '@/prisma/client'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function PATCH(

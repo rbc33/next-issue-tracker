@@ -55,17 +55,17 @@
 - [x] 41.1 Adding a Delete Button
 - [x] 42.2 Adding a Confirmation Dialog Box
 - [x] 43.3 Building an API
-- [] 44.4 Deleting an Issue
-- [] 45.5 Handling Errors
-- [] 46.6 Improving the User Experience
-- [] 47.7 Removing Duplicate Skeletons
+- [x] 44.4 Deleting an Issue
+- [x] 45.5 Handling Errors
+- [x] 46.6 Improving the User Experience
+- [x] 47.7 Removing Duplicate Skeletons
 
 ---
 
-- [] 48.1 Setting Up NextAuth
-- [] 49.2 Configuring Google Provider
-- [] 50.3 Adding the Prisma Adapter
-- [] 51.4 Adding the Login and Logout Links
+- [x] 48.1 Setting Up NextAuth
+- [x] 49.2 Configuring Google Provider
+- [x] 50.3 Adding the Prisma Adapter
+- [x] 51.4 Adding the Login and Logout Links
 - [] 52.5 Change the Layout of the NavBar
 - [] 53.6 Adding a Drop-down Menu
 - [] 54.7 Troubleshooting- Avatar Not Loading
