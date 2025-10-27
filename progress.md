@@ -52,9 +52,9 @@
 
 ---
 
-- [] 41.1 Adding a Delete Button
-- [] 42.2 Adding a Confirmation Dialog Box
-- [] 43.3 Building an API
+- [x] 41.1 Adding a Delete Button
+- [x] 42.2 Adding a Confirmation Dialog Box
+- [x] 43.3 Building an API
 - [] 44.4 Deleting an Issue
 - [] 45.5 Handling Errors
 - [] 46.6 Improving the User Experience
