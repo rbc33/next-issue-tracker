@@ -79,10 +79,10 @@
 - [x] 59.2 Populating the Assignee Select Component
 - [x] 60.3 Setting Up React Query
 - [x] 61.4 Fetching Data with React Query
-- [] 62.5 Add Assigned Issues to Prisma Schema
-- [] 63.6 Implementing the API
-- [] 64.7 Assigning an Issue to a User
-- [] 65.8 Showing Toast Notifications
+- [x] 62.5 Add Assigned Issues to Prisma Schema
+- [x] 63.6 Implementing the API
+- [x] 64.7 Assigning an Issue to a User
+- [x] 65.8 Showing Toast Notifications
 - [] 66.9 Refactoring the Assignee Select Component
 
 ---
