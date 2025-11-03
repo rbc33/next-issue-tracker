@@ -7,16 +7,7 @@ import { PropsWithChildren, useState } from 'react'
 
 // Componente cliente que maneja la creación del QueryClient
 function QueryProvider({ children }: PropsWithChildren) {
-	const [queryClient] = useState(
-		() =>
-			new QueryClient({
-				defaultOptions: {
-					queries: {
-						staleTime: 60 * 1000, // 1 minuto
-					},
-				},
-			})
-	)
+	const [queryClient] = useState(() => new QueryClient())
 	return (
 		<ReactQueryProvider client={queryClient}>{children}</ReactQueryProvider>
 	)
