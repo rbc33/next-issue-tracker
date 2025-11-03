@@ -83,7 +83,7 @@
 - [x] 63.6 Implementing the API
 - [x] 64.7 Assigning an Issue to a User
 - [x] 65.8 Showing Toast Notifications
-- [] 66.9 Refactoring the Assignee Select Component
+- [x] 66.9 Refactoring the Assignee Select Component
 
 ---
 
