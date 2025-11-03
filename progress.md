@@ -77,7 +77,7 @@
 
 - [x] 58.1 Building the Assignee Select Component
 - [x] 59.2 Populating the Assignee Select Component
-- [] 60.3 Setting Up React Query
+- [x] 60.3 Setting Up React Query
 - [] 61.4 Fetching Data with React Query
 - [] 62.5 Add Assigned Issues to Prisma Schema
 - [] 63.6 Implementing the API
