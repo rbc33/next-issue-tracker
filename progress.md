@@ -87,7 +87,7 @@
 
 ---
 
-- [] 67.1 Building the Filter Component
+- [x] 67.1 Building the Filter Component
 - [] 68.2 Filtering Issues
 - [] 69.3 Making Columns Sortable
 - [] 70.4 Sorting Issues
