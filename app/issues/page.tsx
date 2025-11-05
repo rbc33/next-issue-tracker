@@ -7,7 +7,7 @@ import { Issue, Status } from '@prisma/client'
 import { ArrowUpIcon } from '@radix-ui/react-icons'
 
 interface Props {
-	searchParams: { status?: Status; orderBy?: keyof Issue }
+	searchParams: { status?: Status; orderBy?: keyof Issue; in: 'asc' | 'desc' }
 }
 
 const IssuesPage = async ({ searchParams }: Props) => {
@@ -20,14 +20,20 @@ const IssuesPage = async ({ searchParams }: Props) => {
 		{ label: 'Status', value: 'status', className: 'hidden md:table-cell' },
 		{ label: 'Created', value: 'createdAt', className: 'hidden md:table-cell' },
 	]
-
 	const params = await searchParams
 	console.log('Status:', params.status)
 	const statuses = Object.values(Status)
 	const status = statuses.includes(params.status!) ? params.status : undefined
 
+	const orderBy = columns
+		.map((column) => column.value)
+		.includes(params.orderBy!)
+		? { [params.orderBy!]: params.in ? params.in : 'asc' }
+		: undefined
+
 	const issues = await prisma.issue.findMany({
 		where: { status },
+		orderBy,
 	})
 
 	return (
@@ -40,7 +46,11 @@ const IssuesPage = async ({ searchParams }: Props) => {
 							<Table.ColumnHeaderCell key={column.value}>
 								<NextLink
 									href={{
-										query: { ...params, orderBy: column.value },
+										query: {
+											...params,
+											orderBy: column.value,
+											in: params.in === 'asc' ? 'desc' : 'asc',
+										},
 									}}
 								>
 									{column.label}
