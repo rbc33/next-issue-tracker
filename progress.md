@@ -88,8 +88,8 @@
 ---
 
 - [x] 67.1 Building the Filter Component
-- [] 68.2 Filtering Issues
-- [] 69.3 Making Columns Sortable
+- [x] 68.2 Filtering Issues
+- [x] 69.3 Making Columns Sortable
 - [] 70.4 Sorting Issues
 - [] 71.5 Fix Filtering Bugs
 - [] 72.6 Generating Dummy Data
