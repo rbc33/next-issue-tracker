@@ -90,8 +90,8 @@
 - [x] 67.1 Building the Filter Component
 - [x] 68.2 Filtering Issues
 - [x] 69.3 Making Columns Sortable
-- [] 70.4 Sorting Issues
-- [] 71.5 Fix Filtering Bugs
+- [x] 70.4 Sorting Issues
+- [x] 71.5 Fix Filtering Bugs
 - [] 72.6 Generating Dummy Data
 - [] 73.7 Building the Pagination Component
 - [] 74.8 Implementing Pagination
