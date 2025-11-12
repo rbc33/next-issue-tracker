@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "Sentry": {
+      "url": "https://mcp.sentry.dev/mcp/none-j3b/issue-tracker",
+      "type": "http"
+    }
+  }
+}
