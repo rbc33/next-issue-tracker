@@ -1,6 +1,6 @@
 'use client'
 import { Spinner } from '@/app/components'
-// import { Pencil2Icon } from '@radix-ui/react-icons'
+import * as Sentry from '@sentry/nextjs'
 import { AlertDialog, Button, Flex } from '@radix-ui/themes'
 import axios from 'axios'
 import { useRouter } from 'next/navigation'
@@ -19,6 +19,7 @@ const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
 		} catch (error) {
 			setDeleting(false)
 			setError(true)
+			Sentry.captureException(error)
 		}
 	}
 	return (
