@@ -1,7 +1,6 @@
 'use client'
 import { TextField } from '@radix-ui/themes'
 import { useRouter, useSearchParams } from 'next/navigation'
-import React, { useState } from 'react'
 
 const IssueSearch = () => {
 	const router = useRouter()

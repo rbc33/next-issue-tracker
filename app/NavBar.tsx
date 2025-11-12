@@ -57,7 +57,7 @@ const NavLinks = () => {
 }
 const AuthStatus = () => {
 	const { status, data: session } = useSession()
-	const pathname = usePathname() // Añade esta línea
+	const pathname = usePathname()
 
 	if (status === 'loading') return <Skeleton width="3rem" />
 	if (status === 'unauthenticated')
