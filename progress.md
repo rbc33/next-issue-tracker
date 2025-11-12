@@ -92,9 +92,9 @@
 - [x] 69.3 Making Columns Sortable
 - [x] 70.4 Sorting Issues
 - [x] 71.5 Fix Filtering Bugs
-- [] 72.6 Generating Dummy Data
-- [] 73.7 Building the Pagination Component
-- [] 74.8 Implementing Pagination
+- [x] 72.6 Generating Dummy Data
+- [x] 73.7 Building the Pagination Component
+- [x] 74.8 Implementing Pagination
 - [] 75.9 PaginatingIssues
 - [] 76.10 Refactoring- Extracting IssueTable Component
 
