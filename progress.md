@@ -95,7 +95,7 @@
 - [x] 72.6 Generating Dummy Data
 - [x] 73.7 Building the Pagination Component
 - [x] 74.8 Implementing Pagination
-- [] 75.9 PaginatingIssues
+- [x] 75.9 PaginatingIssues
 - [] 76.10 Refactoring- Extracting IssueTable Component
 
 ---
