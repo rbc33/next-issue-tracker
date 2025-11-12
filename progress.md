@@ -102,7 +102,7 @@
 
 - [x] 77.1 Building the LatestIssues Component
 - [x] 78.2 Building the IssueSummary Component
-- [] 79.3 Building the BarChart Component
+- [x] 79.3 Building the BarChart Component
 - [] 80.4 Laying Out the Dashboard
 
 ---
