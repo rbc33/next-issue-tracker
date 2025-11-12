@@ -11,6 +11,7 @@ export interface IssueQuery {
 	orderBy?: keyof Issue
 	in: 'asc' | 'desc'
 	page: string
+	search: string
 }
 
 interface Props {
