@@ -107,8 +107,8 @@
 
 ---
 
-- [] 81.1 Adding Metadata
-- [] 82.2 Optimizing Performance Using React Cache
+- [x] 81.1 Adding Metadata
+- [x] 82.2 Optimizing Performance Using React Cache
 - [] 83.3 Removing.env File
 - [] 84.4 Setting Up Error Tracking
 - [] 85.5 Setting Up the Production Database
