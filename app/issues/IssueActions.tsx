@@ -7,7 +7,7 @@ import IssueSearch from './IssueSearch'
 
 const IssueActions = () => {
 	return (
-		<Flex justify="between" mb="3">
+		<Flex justify="between">
 			<Flex gap="3">
 				<IssueStatusFilter />
 				<IssueSearch />

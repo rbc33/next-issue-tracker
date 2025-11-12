@@ -16,7 +16,12 @@ const IssuesPage = async ({ searchParams }: Props) => {
 
 	const statuses = Object.values(Status)
 	const status = statuses.includes(params.status!) ? params.status : undefined
-	const where = { status }
+	const where = {
+		status,
+		title: {
+			contains: params?.search,
+		},
+	}
 
 	const orderBy = columnNames.includes(params.orderBy!)
 		? { [params.orderBy!]: params.in ? params.in : 'asc' }
@@ -34,23 +39,14 @@ const IssuesPage = async ({ searchParams }: Props) => {
 	})
 	const issueCount = await prisma.issue.count({ where })
 
-	const filteredIssues = params.search
-		? issues.filter(
-				(issue) =>
-					issue.title.toLowerCase().includes(params.search!.toLowerCase())
-				// || issue.description.toLowerCase().includes(params.search!.toLowerCase())
-		  )
-		: issues
-
 	return (
-		<Flex direction="column">
+		<Flex direction="column" gap="3">
 			<IssueActions />
-			<IssueTable params={params} issues={filteredIssues} />
+			<IssueTable params={params} issues={issues} />
 			<Pagination
 				pageSize={pageSize}
 				currentPage={page}
 				itemCount={issueCount}
-				// itemCount={filteredIssues.length}
 			/>
 		</Flex>
 	)
