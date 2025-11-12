@@ -1,6 +1,5 @@
 import '@radix-ui/themes/styles.css'
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
 import localFont from 'next/font/local'
 import { Container, Theme } from '@radix-ui/themes'
 import './globals.css'
@@ -11,15 +10,6 @@ import QueryClientProvider from './QueryClientProvider'
 const avenir = localFont({
 	src: '../public/fonts/Avenir-Black.woff2',
 	variable: '--font-avenir',
-})
-const geistSans = Geist({
-	variable: '--font-geist-sans',
-	subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
-	subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
@@ -34,9 +24,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} ${avenir.variable} antialiased`}
-			>
+			<body className={`${avenir.variable} antialiased`}>
 				<QueryClientProvider>
 					<AuthProvider>
 						<Theme appearance="dark" accentColor="tomato">
